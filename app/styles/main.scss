@@ -1,0 +1,52 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+
+.main-container{
+  max-width:  300px;
+
+
+  
+  a{
+    text-decoration: none;
+    color:black;
+    font-size: 38px;
+    &:hover{
+      text-decoration: none;
+      border: 1px dotted black;
+      margin: 1px;
+    }
+  }
+
+  .hovered{
+    border: 1px dotted black;
+  }
+
+  .matrix{
+    margin: 20px 0px 10px 0px;
+    background-color: #eee;
+    .cell{
+      width: 31.33%;
+      height: 85px;
+      display: inline-block;
+      background-color: #ccc;
+      margin:2px;
+      line-height: 2.5;
+    }
+
+  }
+
+  .blue{
+    background-color: blue !important;
+  }
+
+  .red{
+    background-color: red !important;
+  }
+
+  .green{
+    background-color: green !important;
+  }
+
+}
